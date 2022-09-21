@@ -1,0 +1,302 @@
+
+*{box-sizing: border-box;}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+
+#sec1{
+    width: 100vw;
+    height: 560px;
+    background-image: url(../img/hawaii.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#sec1::before{
+    width: 100vw;
+    content: "";
+    position: absolute;   /*tiene absolute para que quede al fondo*/
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 70px;
+    bottom: 0%;
+    left: 0%;
+    right:0%
+}
+
+
+
+
+#nav1{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    height: 70px; ;
+    background-color: rgb(53, 58, 64);
+}
+
+#navdiv1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 20vw;
+    margin-left: 6rem;
+}
+
+nav img{
+    height: 60px;
+    width: 100px;   
+}
+
+nav h1{
+    color: white;
+    font-size: 18px;
+    justify-content: center;   
+}
+
+#navdiv2{   
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 14px;
+    align-items: center;
+    height: 70px;
+    margin-left: auto;
+    margin-right: 6rem;
+    
+}
+
+div a{
+    padding: 5px;
+}
+
+.a1{
+        -decoration: none;
+    color: white;
+    
+}
+
+.a1:hover{
+    text-decoration: none;
+}
+
+.a2{
+    text-decoration: none;
+    color: rgb(153, 146, 136);
+}
+
+.a2:hover{
+    text-decoration: none;
+}
+
+.a3{
+    text-decoration: none;
+    color: green;
+}
+
+.a3:hover{
+    text-decoration: none;
+}
+
+#article1{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    color: white;
+    margin-left: 54%;
+    margin-right: 8rem;  
+    position: relative;   /*es relative para que quede encima del fondo negro*/
+    background-color: transparent;
+}
+
+
+h2{
+    font-size: 30px;
+    text-align: right;
+}
+
+
+.parrafo1{
+    font-size: 15px;
+    text-align: right;
+}
+
+
+#formulario1{
+    width: 100%;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0%;
+
+}
+
+#boton1{
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    margin-right: 5%;
+    
+}
+
+#boton2{
+    background-color: rgb(41, 167, 68);     
+}
+
+
+#divoradores{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#sectioncards{
+    width: 80vw;
+    height: 550px;
+    
+}
+
+
+#divcards{
+    margin: 1rem;
+    margin-top: 0;
+}
+
+
+#botoncards1{
+    height: 1.5rem;
+
+}
+
+
+
+
+
+#containerfoto{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#divfoto{
+    width: 45%;
+    height: 100%;
+    margin: 0%;
+
+
+}
+
+#divfoto2{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(53, 58, 64);
+    margin: 0%;
+}
+
+#botonhonolulu{
+    
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+#divoradores2{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    
+
+}
+
+
+#p-orador{
+    font-size: 0.9rem;
+}
+
+
+
+#divform{
+    width: 50vw;
+
+    /*background-color: pink;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text_area_id{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+#recordatorio{
+    font-size: smaller;
+    color: rgb(98, 105 , 113);
+}
+
+
+
+
+#botonformulario{
+    width: 100%;
+    background-color: rgb(150, 201, 62);
+    border-color: rgb(150, 201, 62);
+
+}
+
+footer{
+    height: 5rem;
+    background-color: rgb(29, 67, 88);
+    width: 100vw;
+    padding-left: 10rem;
+    padding-right: 10rem;
+     
+}
+
+#footerul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 5rem;
+}
+
+footer ul li{
+    margin: auto;
+    width: 7rem;
+    height: 5rem;
+    display: flex;
+    }
+
+footer ul li a{
+    
+    padding-top: 20%;
+    font-size: 0.8rem;
+    width: 100%;
+    height: 5rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+
+
+        
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+}
+
